@@ -30,19 +30,19 @@
             <h4 class="text-lg font-normal">samantha@email.com</h4>
           </div>
         </div>
-        <div class="flex flex-col space-y-10 my-14">
-          <h2 class="text-3xl font-semibold">Dashboard</h2>
 
-          <h2 class="text-3xl font-semibold text-white">Expenses</h2>
-          <h2 class="text-3xl font-semibold">Wallets</h2>
-          <h2 class="text-3xl font-semibold">Summary</h2>
-          <h2 class="text-3xl font-semibold">Accounts</h2>
-          <h2 class="text-3xl font-semibold">Settings</h2>
-        </div>
+        <ul class="menu space-y-6">
+          <li class="disabled text-3xl font-semibold"><a>Dashboard</a></li>
+          <li class="text-3xl font-semibold"><a>Expenses</a></li>
+          <li class="disabled text-3xl font-semibold"><a>Wallets</a></li>
+          <li class="disabled text-3xl font-semibold"><a>Summary</a></li>
+          <li class="disabled text-3xl font-semibold"><a>Accounts</a></li>
+          <li class="disabled text-3xl font-semibold"><a>Settings</a></li>
+        </ul>
       </section>
 
       <!-- Details Section -->
-      <div class="flex flex-row bg-white w-[1060px]">
+      <div class="flex flex-row bg-white w-[1400px]">
         <section class="flex flex-col mx-36 py-20">
           <div class="w-[510px] text-black">
             <div class="flex flex-row justify-between">
@@ -66,9 +66,7 @@
                   </div>
                 </div>
 
-                <button class="w-10 rounded-full border-blue-300 border-2 p-2">
-                  +
-                </button>
+                <button class="btn btn-circle btn-outline">+</button>
               </div>
             </div>
           </div>
@@ -160,6 +158,97 @@
               </div>
               <p>5:12 pm | Nonton Bioskop</p>
             </div>
+          </div>
+        </section>
+
+        <section class="flex flex-col py-20">
+          <div>
+            <h2 class="text-2xl font-semibold text-black">
+              Where your money go?
+            </h2>
+
+            <div class="flex flex-col mt-10 w-[350px]">
+              <div
+                class="flex flex-row justify-between text-base font-bold text-black mb-3"
+              >
+                <h4>Food and Drinks</h4>
+                <h4>872.400</h4>
+              </div>
+              <progress
+                class="progress progress-success w-56"
+                value="40"
+                max="100"
+              ></progress>
+            </div>
+            <div class="flex flex-col mt-8 w-[350px]">
+              <div
+                class="flex flex-row justify-between text-base font-bold text-black mb-3"
+              >
+                <h4>Shopping</h4>
+                <h4>1,378.200</h4>
+              </div>
+              <progress
+                class="progress progress-success w-56"
+                value="60"
+                max="100"
+              ></progress>
+            </div>
+            <div class="flex flex-col mt-8 w-[350px]">
+              <div
+                class="flex flex-row justify-between text-base font-bold text-black mb-3"
+              >
+                <h4>Housing</h4>
+                <h4>928.500</h4>
+              </div>
+              <progress
+                class="progress progress-success w-56"
+                value="50"
+                max="100"
+              ></progress>
+            </div>
+            <div class="flex flex-col mt-8 w-[350px]">
+              <div
+                class="flex flex-row justify-between text-base font-bold text-black mb-3"
+              >
+                <h4>Transportation</h4>
+                <h4>420.700</h4>
+              </div>
+              <progress
+                class="progress progress-success w-56"
+                value="35"
+                max="100"
+              ></progress>
+            </div>
+            <div class="flex flex-col mt-8 w-[350px]">
+              <div
+                class="flex flex-row justify-between text-base font-bold text-black mb-3"
+              >
+                <h4>Vehicle</h4>
+                <h4>520.000</h4>
+              </div>
+              <progress
+                class="progress progress-success w-56"
+                value="55"
+                max="100"
+              ></progress>
+            </div>
+          </div>
+
+          <div class="flex flex-col w-[300px] px-2 space-y-5 mt-14">
+            <div class="flex flex-row justify-between pr-8">
+              <img src="./images/box.svg" alt="" />
+              <img src="./images/flower.svg" alt="" />
+            </div>
+            <div class="w-full">
+              <h4 class="text-xl font-semibold text-black mb-3">
+                Save more money
+              </h4>
+              <p>
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim
+              </p>
+            </div>
+            <button class="btn btn-active text-white">View Tips</button>
           </div>
         </section>
       </div>
